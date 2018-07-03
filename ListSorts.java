@@ -14,7 +14,6 @@ public class ListSorts {
    *    contains one object from q.
    **/
   public static LinkedQueue makeQueueOfQueues(LinkedQueue q) {
-    // Replace the following line with your solution.  
 	  LinkedQueue ret = new LinkedQueue(); 
 	  for(int i=1; i<=q.size(); i++) {
 		  LinkedQueue newq = new LinkedQueue();
@@ -36,7 +35,6 @@ public class ListSorts {
    *   and q2 (and nothing else), sorted from smallest to largest.
    **/
   public static LinkedQueue mergeSortedQueues(LinkedQueue q1, LinkedQueue q2) {
-    // Replace the following line with your solution.
 	  LinkedQueue ret = new LinkedQueue();
 	  try {
 		  while((!q1.isEmpty()) && (!q2.isEmpty())) {
@@ -74,7 +72,6 @@ public class ListSorts {
   public static void partition(LinkedQueue qIn, Comparable pivot, 
                                LinkedQueue qSmall, LinkedQueue qEquals, 
                                LinkedQueue qLarge) {
-    // Your solution here.
   }
 
   /**
